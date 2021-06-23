@@ -1,0 +1,44 @@
+.features-main{
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.features-p-small{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    color: #DC780B;
+}
+
+.features-p-big{
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 35px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #150C01;
+}
+
+.features-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.home-main{
+    width: 80%;
+    height: 92vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-left{
+    width: 555px;
+    height: 356px;
+}
+
+.home-right{
+    background-image: url("../../img/home/CSmJnTefxM 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 801px;
+    height: 670px;
+
+    mix-blend-mode: darken;
+}
+
+.home-left-p{
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48.83px;
+    line-height: 58px;
+
+    color: #150C01;
+}
+
+.home-left-p-small{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+.home-left-btn{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}

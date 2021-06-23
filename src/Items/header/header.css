@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.header-main{
+    width: 80%;
+    height: 46px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.header-logo{
+    height: 44px;
+    width: 45px;
+    background-image: url("../../img/header/615px-Food_Network_New_Logo 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-items{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-right: 450px;
+}
+
+.header-items-inside{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-left: 40px;
+    justify-content: space-between;
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #150C01;
+    opacity: 0.6;
+
+    cursor: pointer;
+}
+
+.header-items-inside:hover{
+    color: #DC780B
+}
