@@ -1,18 +1,11 @@
-import React, {useEffect} from "react";
+import React from "react";
 import './about_us.css';
 import ButtonOrange from "../../Items/OrangeButton/ButtonOrange";
-import service from '../../services/rainForestApi.service';
 
 import img from '../../img/about_us/FmlS61J9LP 1.png'
 import img1 from '../../img/about_us/Vector 3.png';
 
 function About_Us() {
-
-    useEffect(() => {
-        service.getData()
-    })
-
-
     return (
         <div className='about-main'>
             <img className={'vector'} src={img1}/>
